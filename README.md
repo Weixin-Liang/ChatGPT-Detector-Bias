@@ -4,7 +4,7 @@
 [![Python 3.9](https://img.shields.io/badge/python-3.9-blue.svg)](https://www.python.org/downloads/release/python-390/)
 [![Made withJupyter](https://img.shields.io/badge/Made%20with-Jupyter-orange?style=for-the-badge&logo=Jupyter)](https://jupyter.org/try)
 
-This repository contains the data and supplementary materials for our paper:
+This repository contains the code, data and results for our paper:
 
 **GPT Detectors Are Biased Against Non-Native English Writers**\
 Weixin Liang*, Mert Yuksekgonul*, Yining Mao*, Eric Wu*, James Zou\
@@ -55,24 +55,28 @@ Using ChatGPT-4 to improve the word choices in TOEFL essays (Prompt: "Enhance th
 ```
 .
 ├── README.md
-├── data/
-    ├── human_data/ 
+├── Data_and_Results/
+    ├── Human_Data/ 
         ├── TOEFL_real_91/
             ├── name.json
             ├── data.json
+            ├── [GPT Detector Name].json
         ├── TOEFL_gpt4polished_91/
             ├── ...
         ├── CollegeEssay_real_70/
         ├── CS224N_real_145/
-    ├── gpt_data/ 
+        ├── HewlettStudentEssay_real_88/
+        ├── HewlettStudentEssay_GPTsimplify_88/
+    ├── GPT_Data/ 
         ├── CollegeEssay_gpt3_31/
         ├── CollegeEssay_gpt3PromptEng_31/
         ├── CS224N_gpt3_145/
         ├── CS224N_gpt3PromptEng_145/
+├── Code/
 ```
 
 
-The `data` folder contains the human-written and AI-generated datasets used in our study. Each subfolder contains a `name.json` file, which provides the metadata, and a `data.json` file, which contains the text samples.
+The `Data_and_Results` folder contains the human-written and AI-generated datasets used in our study, as well as the detection results of GPT detectors. Each subfolder contains a `name.json` file, which provides the metadata, and a `data.json` file, which contains the text samples.
 
 
 
