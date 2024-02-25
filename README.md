@@ -11,6 +11,15 @@ Weixin Liang*, Mert Yuksekgonul*, Yining Mao*, Eric Wu*, James Zou\
 arXiv: [2304.02819](https://arxiv.org/abs/2304.02819)
 
 ```bibtex
+@article{Liang2023GPTDA,
+  title={GPT detectors are biased against non-native English writers},
+  author={Weixin Liang and Mert Yuksekgonul and Yining Mao and Eric Wu and James Y. Zou},
+  journal={Patterns},
+  year={2023},
+  volume={4},
+  url={https://api.semanticscholar.org/CorpusID:257985499}
+}
+
 @article{liang2023gpt,
     title={GPT detectors are biased against non-native English writers}, 
     author={Weixin Liang and Mert Yuksekgonul and Yining Mao and Eric Wu and James Zou},
